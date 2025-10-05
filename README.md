@@ -59,67 +59,6 @@ This project was built as an **internship task** to demonstrate backend, fronten
 
 ## Folder Structure
 
-# Task Management System (REST API + React Frontend)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Folder Structure](#folder-structure)
-- [Getting Started](#getting-started)
-- [API Endpoints](#api-endpoints)
-- [Frontend](#frontend)
-- [Authentication & Role-Based Access](#authentication--role-based-access)
-- [Database Schema](#database-schema)
-- [Security & Scalability](#security--scalability)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-
----
-
-## Project Overview
-This project is a **Scalable Task Management System** built with a **RESTful API backend** and a **React frontend** for testing.  
-It supports **user registration, login, and role-based access control** (Admin & User).  
-
-- **Users:** Can add and view their own tasks.  
-- **Admins:** Can view all users, view tasks of each user, and delete users or tasks.  
-
-This project was built as an **internship task** to demonstrate backend, frontend, and API design skills.
-
----
-
-## Features
-### Backend
-- ✅ User Registration & Login with JWT Authentication
-- ✅ Role-Based Access (User vs Admin)
-- ✅ CRUD APIs for Tasks
-- ✅ Input Validation & Error Handling
-- ✅ API Versioning Support
-- ✅ Postman Collection for Testing
-
-### Frontend
-- ✅ React.js simple UI
-- ✅ Register & Login
-- ✅ Protected Dashboard (JWT required)
-- ✅ Users: Add & view tasks
-- ✅ Admins: Manage users and tasks
-- ✅ Success/Error notifications
-
----
-
-## Tech Stack
-- **Backend:** Node.js, Express.js
-- **Frontend:** React.js
-- **Database:** MongoDB
-- **Authentication:** JWT, bcrypt
-- **Validation:** express-validator
-
----
-
-## Folder Structure
-
 task-api/
 ├─ auth-api/ # Backend
 │ ├─ controllers/
